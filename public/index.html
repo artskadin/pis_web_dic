@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> 
+</head>
+<body>
+    <div class="columns">
+        <div class="column"></div>
+        <div class="column is-three-quarters">
+            <h1 class="title">Артем скадин - Веб-словарь</h1>
+            <div class="columns">
+                <div class="column">
+                    <input id="enter-word" class="input is-primary" placeholder="Введите слово">
+                    <button class="button is-success" style="margin-top: 8px;" id="send">Узнать определение</button>
+                    <p style="margin-top: 15px;" class="title is-4">Определение</p>
+                    <p id="definition" class="is-medium"></p>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <input style="margin-top: 40px;" id="add-word" class="input is-primary" placeholder="Введите слово">
+                    <input style="margin-top: 20px;" id="add-word-definition" class="input is-primary" placeholder="Введите определение">
+                    <button class="button is-success" style="margin-top: 8px;" id="add">Добавить термин</button>
+                </div>
+                <div class="column"></div>
+                <div class="column"></div>
+            </div>
+        </div>
+        <div class="column"></div>
+    </div>
+
+    <!-- <input id="add-word" class="input is-primary" placeholder="Enter a word">
+    <input id="add-word-definition" class="input is-primary" placeholder="Enter a definition">
+    <button id="add">Send request</button> -->
+    <script src="sc.js"></script>
+</body>
+</html>
